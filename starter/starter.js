@@ -1,6 +1,6 @@
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
-const player = { x: 347, y: 203, size: 26, speed: 240 };
+const player = { x: 347, y: 203, size: 26, speed: 320 };
 const keys = new Set();
 
 const directions = {
@@ -35,7 +35,7 @@ function draw() {
   ctx.fillStyle = "#122039";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
   // TODO: Draw a pickup before drawing the player.
-  ctx.fillStyle = "#70edcf";
+  ctx.fillStyle = "#a78bfa";
   ctx.fillRect(player.x, player.y, player.size, player.size);
 }
 

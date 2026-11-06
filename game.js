@@ -1,12 +1,12 @@
 // THEME: Replace these colors and nouns after the theme roulette.
 const THEME = {
-  background: "#0b1426", grid: "#1b2a43", player: "#70edcf",
+  background: "#0b1426", grid: "#1b2a43", player: "#a78bfa",
   collectible: "#ffdc76", hazard: "#ff778e", collectiblePlural: "sparks"
 };
 
 // RULES: Speeds are in Canvas pixels per second.
 const RULES = {
-  playerSpeed: 270, hazardSpeed: 115, speedPerLevel: 22,
+  playerSpeed: 350, hazardSpeed: 115, speedPerLevel: 22,
   maxHazardSpeed: 235, pointsPerLevel: 5, maxHazards: 8
 };
 
